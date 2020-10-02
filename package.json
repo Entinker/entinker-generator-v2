@@ -1,0 +1,32 @@
+{
+  "name": "entinker-generator-v2",
+  "version": "1.0.0",
+  "description": "Entinker Boilerplate Generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "bin": {
+    "entinker-generator": "index.js"
+  },
+  "preferGlobal": true,
+  "keywords": [
+    "Entinker"
+  ],
+  "author": "Entinker Technology Solutions Pvt Ltd",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "clear": "^0.1.0",
+    "fs-extra": "^8.1.0",
+    "clui": "^0.3.6",
+    "ejs": "^3.0.1",
+    "figlet": "^1.2.4",
+    "inquirer": "^7.0.4",
+    "minimist": "^1.2.0",
+    "node-run-cmd": "^1.0.1",
+    "run-parallel": "^1.1.9",
+    "secure-random-string": "^1.1.2",
+    "universalify": "^0.1.2"
+  }
+}
