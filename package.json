@@ -23,7 +23,7 @@
     "ejs": "^3.0.1",
     "figlet": "^1.2.4",
     "inquirer": "^7.0.4",
-    "minimist": "^1.2.0",
+    "minimist": "^1.2.5",
     "node-run-cmd": "^1.0.1",
     "run-parallel": "^1.1.9",
     "secure-random-string": "^1.1.2",
