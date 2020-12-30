@@ -27,6 +27,6 @@
     "node-run-cmd": "^1.0.1",
     "run-parallel": "^1.1.9",
     "secure-random-string": "^1.1.2",
-    "universalify": "^0.1.2"
+    "universalify": "^0.2.0"
   }
 }
