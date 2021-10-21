@@ -17,10 +17,10 @@ function config(app) {
         credentials: true
     }))
     // body parser
-    app.use(bodyParser.urlencoded({
+    app.use(express.urlencoded({
         extended: true
     }))
-    app.use(bodyParser.json())
+    app.use(express.json())
     // unique requestId
     app.use((req, res, next) => {
         req.requestId = uuid()
