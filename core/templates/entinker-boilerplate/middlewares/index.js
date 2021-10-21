@@ -1,4 +1,5 @@
 const { v4: uuid } = require('uuid');
+const { nanoid } = require('nanoid');
 const morgan = require('morgan')
 const bodyParser = require('body-parser')
 const cors = require('cors')
@@ -23,16 +24,16 @@ function config(app) {
     app.use(express.json())
     // unique requestId
     app.use((req, res, next) => {
-        req.requestId = uuid()
+        req.requestId = nanoid()
         next()
     })
 
     //set has file boolean
-    app.use((req,res, next) => {
+    app.use((req, res, next) => {
         req.hasFile = Boolean(req.is('multipart/form-data'))
         next()
     })
 }
 
 
-module.exports = {config}
+module.exports = { config }
