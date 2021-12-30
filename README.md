@@ -6,7 +6,7 @@
 ### Installing
 
 ```
-npm install -g https://github.com/Waterloo/entinker-generator
+npm install -g https://github.com/Entinker/entinker-generator-v2
 ```
 
 
