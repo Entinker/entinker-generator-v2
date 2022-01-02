@@ -32,7 +32,7 @@ BASE_URL = http://localhost:<%= app_port  %>`
                 process.exit()
             }
 
-            fs.copy(`${fixedurl}/templates/entinker-boilerplate/`, `./${name}/`, (err) => {
+            fs.copy(`${fixedurl}/templates/entinker-boilerplate`, `./${name}/`, (err) => {
                 if (err) {
                     console.log(err)
                     process.exit()
