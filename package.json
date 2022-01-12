@@ -24,7 +24,7 @@
     "fs-extra": "^8.1.0",
     "inquirer": "^7.0.4",
     "minimist": "^1.2.5",
-    "nanoid": "^3.1.30",
+    "nanoid": "^3.1.31",
     "node-run-cmd": "^1.0.1",
     "run-parallel": "^1.1.9",
     "secure-random-string": "^1.1.2",
